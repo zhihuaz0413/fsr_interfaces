@@ -1,0 +1,12 @@
+# An example of a trigger service.
+# This can be used for testing but a semantically meaningful
+# one should be created to be built upon.
+
+int64 duration
+bool show_flag
+bool record_flag
+string labels
+string folder
+---
+bool success   # indicate successful run of triggered service
+string message # informational, e.g. for error messages.

@@ -1,0 +1,7 @@
+# An example of a trigger service.
+# This can be used for testing but a semantically meaningful
+# one should be created to be built upon.
+
+int64 mean_val
+---
+bool success   # indicate successful run of triggered service

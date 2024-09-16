@@ -1,0 +1,7 @@
+bool show_flag
+int32 duration
+bool record_flag
+---
+string file_name
+---
+int32[] values
